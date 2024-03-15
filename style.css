@@ -1,0 +1,14 @@
+ h1 {
+   margin-left: 40px;
+   margin-top: 20px;
+   list-style-position:inside;
+}
+h1{
+    text-align: center;
+}
+html{
+    background-color: rgb(37, 44, 41);
+}
+
+
+
