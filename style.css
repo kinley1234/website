@@ -1,31 +1,63 @@
-*{
-    background: black;
+body{
+    width: 100%;
+    height: 100%;
 }
-img{
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top{
+    width: 500px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+}
+.Heading-1{
+    margin-left: 100px;
+}
+.card-img{
     width: 50%;
-    border: solid 5px white;
-    margin-left: 25%;
+    display: block;
+    margin: auto;
 }
-h1,h2{
-    
-    font-family: 'yeseva one', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    background: black;
-    text-align: center;
-    text-transform: uppercase;
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
-h1:hover{
-    color: blue;
+ul{
+    list-style-type: none;
 }
-p{
-    color: white;
-    font-family: 'yeseva one', sans-serif;
+span{
+    font-weight: bolder;
 }
-div{
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 25%;
-    margin-bottom: 25%;
+#Heading-5 {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#Second-button{
+    background-color: white;
+    color: black;
+}
+#Second-button:hover{
+    background-color: blue;
+}
+.container img{
+    width: 35px;
+    display: block;
+    margin: auto;
+}
+.icon-box{
+    width: 45px;
+    height: 45px;
+}
+footer{
+    display: flex;
 }
