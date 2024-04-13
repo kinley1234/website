@@ -1,198 +1,178 @@
-<!-- <!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"><script src="https://kit.fontawesome.com/f6ea282504.js" crossorigin="anonymous"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Components</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    
-  <style>
-    
-  </style>
-</head>
-<body>
-  <div class="btn-group" role="group" aria-label="Basic outlined example">
-    <button type="button" class="btn btn-outline-primary">Move It</button>
-    <button type="button" class="btn btn-outline-primary">home</button>
-    <button type="button" class="btn btn-outline-primary">About</button>
-    <button type="button" class="btn btn-outline-primary">Service</button>
-    <button type="button" class="btn btn-outline-primary">Postcade</button>
-    <button type="button" class="btn btn-outline-primary">Check</button>
-  </div>
-  <div class="container-fluid"></div>
-    <h1 class="card-title">Move With Joy</h1>
-    <h3 class="card-subtitle mb-2 text-body-secondary"><img src="./chat-square-heart.svg" alt=""></h3>
-     <a href="#" class="Get Quote">Get Quote</a>
-     <a href="#" class="Contact Us">Contact Us</a>
-     <br>
-    <img src="moving-van.jpg" height="200 weight=200" weight="card-img-top" alt="">
-    <p class="card-text">Our team of professional movers are trained to prioritize efficiency, organization, and attention to detail.
-      We understand that your possessions are more than just objects - they are a reflection of your life, 
-      memories, and experiences. That's why we take extra care to ensure that everything is packed and
-       transported with the utmost care and attention.
-     Get a quote.</p>
-  </div>
-
-</body>
-
-</html> -->
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Components</title>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="./style.css">
-  
   </head>
-
-<body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-
-  YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href=  "#"> <img src="./box-seam.svg"> Move it</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" 
-        bfdaria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>  
-          </li>
+  <body>
+    <div class="headcont con">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 ">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class=" fs-1 fw-bold">KN</span>
+        </a>
+    
+        <ul class="nav nav-pills ">
+          <li class="nav-item"><a href="#home" class="nav-link ">Home</a></li>
+          <li class="nav-item"><a href="#featured-3" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Check</button>
-        </form>
-      </div>
+      </header>
     </div>
-  </nav>
 
-  <!-- card one -->
-  <div class="card">
-    <h5 class="card-title">Move with Joy</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <div class="card-body">
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-      <a href="#" class="btn btn-primary" id="Second-button">Go somewhere</a> 
-      </div>
-      <br>
-    <img src="./moving-van.jpg" class="card-img-top" >
-  </div>
-    <br> <br>
+    <!-- home -->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img class="kn" src="./asset/kn.jpg" class="d-block mx-lg-auto img-fluid"  alt="Bootstrap Themes" width="250" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5   lh-1 mb-3">Hello, It's me <span style="color: white;">Kinley Namgay</span> </h1>
+          <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Front-end <span style="color: white;"> Web Developer</span> </h2>
+          <h3 style="color:white;">Enthusiastically dedicated to crafting dynamic front-end web pages. Passionate about blending design and functionality to create immersive user experiences. Embracing the challenge of bringing ideas to life through code and creativity.
 
-  <!-- icons div -->
-  <h1 class="Heading-1">Why move with Us</h1>
-  <hr>
-  <!-- Why Move with us -->
-<div class="container px-4 py-5" id="featured-3">
-  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-    <div class="feature col">
-      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <div class="icon-box"><img src="./briefcase.svg"></div>
-        
+
+          </h3>
+          
+          
+        </div>
       </div>
-      <h3 class="fs-2 text-body-emphasis">Professional</h3>
-      <p>Our team of professional movers are trained to priotize effiency,organization, and attention to detail. We understand that your posssesions are more than just objects-they are a reflection of your life, memories and experiences. That's why we take extra care to ensure that everything is packed and transported with the utmost care and attention.</p>
-      <a href="#" class="icon-link">
-        Get a quote 
-        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-      </a>
     </div>
-    <div class="feature col">
-      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <div class="icon-box"><img src="./bus-front.svg" ></div>
-        
+    
+   <hr>
+  <!-- abt-sec -->
+  <section>
+    <div>
+  <div class="container px-4 py-5" id="featured-3">
+    <h1 class="pb-2 border-bottom text-center" id="about">About me</h1>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="fa-solid fa-book-open"></i>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Education</h3>
+        <ul>
+          <li>Completed high school in 2019 from Utpal Academy</li>
+        </ul>
       </div>
-      <h3 class="fs-2 text-body-emphasis">Countrywide</h3>
-      <p>We offer a range of services of services to suit your individual needs, whether you're moving locally or across the country. Our team can handle everything from packing and loading to unloading and unpacking, so you can focus on setting into your new home. And with our trnsparent pricing and no hidden fees, you can trust that you're getting a fair and competive rate for our services.</p>
-      <a href="#" class="icon-link">
-        Get a quote 
-        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-      </a>
-    </div>
-    <div class="feature col">
-      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <div class="icon-box"><img src="./chat-square-heart.svg"></div>
-       
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="fa-solid fa-award"></i>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Experiences</h3>
+        <ul>
+          <li>Completed Dessup training</li>
+          <li>Internships</li>
+          <li>Web developer</li>
+        </ul>
+        <a href="#" class="icon-link">
+
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
       </div>
-      <h3 class="fs-2 text-body-emphasis">Person Touch</h3>
-      <p>At our core, we believe that moving should ba an exciting and positive experience, not a stressful one. By providing exceptional moving services in the US, we hope to revolutionize tha way people think about moving and provide a better, more personalized experience for our customers. Contact us today to learn more about how we can help you with your next ove.</p>
-      <a href="#" class="icon-link">
-        Get a quote 
-        <svg class="bi"><use xlink:href="#chevron-right"></use></svg> 
-      </a>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="fa-solid fa-thumbs-up"></i>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
-  <br>
-  <!-- couple image -->
+</section>
+  <hr>
 
-  <figure class="figure">
-    <img src="./couple.jpg" class="figure-img img-fluid rounded">
-  </figure>
+  <!-- project -->
+ <section>
+  <div id="project">
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h1 id="project" class="pb-2 border-bottom">Project</h1>
+    <div class="row g-4  row-cols-1 row-cols-lg-3">
 
-<!-- footer Section -->
-  <div class="container-1">
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-      <div class="col mb-3">
-        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-        </a>
-        <p class="text-body-secondary">© 2024</p>
+       <div id="col" class="col d-flex align-items-start">
+        <div >
+          <h2 class="fs-2 text-body-emphasis">Project 1</h3>
+          <img class="space" src="./asset/pp.png" >
+         <hr>
+        </div>
       </div>
-    <div class="col mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
+   
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fs-2 text-body-emphasis text-center">Project 2</h3>
+         <img class="space" src="./asset/pricing.png">
+         <br>
+        </div>
       </div>
-    <div class="col mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
+      <div id="col" class="col d-flex align-items-start">
+        <div>
+          <h3 class="fs-2 text-body-emphasis" style="text-align: center;">Project 3</h3>
+         <img class="space" src="./asset/tindog.png" >
+         </div>
       </div>
-    <div class="col mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
+    </div>
+ 
+   
+    <br>
+  
+  </div>
+</div>
+</section>
+  <hr>
+  <!-- contactme -->
+  <div class="container">
+    <main>
+      <div class="py-5 text-center">
+        <h1 id="contact">Contact me</h1>
       </div>
+        <div class="col-md-7 col-lg-8">
+          <form class="needs-validation" novalidate="">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+  
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="">
+              </div>
+              <div class="col-12">
+                <label for="address" class="form-label">Message Me</label>
+                <textarea type="text" class="form-control" id="address" required=""></textarea>
+              </div>
+            <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  
+    <footer class="my-5 pt-5 text-body-secondary text-center text-small">
+      <p class="mb-1">© Kinlay Namgay-2024</p>
+      
     </footer>
   </div>
-</body>
+  </body>
 </html>
+
